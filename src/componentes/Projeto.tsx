@@ -1,4 +1,5 @@
 import { useState, type ReactNode } from "react";
+import '../App.css'
 
 export type ImagesList = { src: string; alt: string }[];
 
