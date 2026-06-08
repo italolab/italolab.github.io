@@ -42,7 +42,7 @@ function ProjetoItaloMonitor() {
                 o microserviço de monitoramento precisa que o dispositivo monitorado tenha um IP público e, no caso do agente, 
                 ele pode ser colocado em um computador com acesso à internet e acesso a rede local onde os dispositivos a serem 
                 monitorados por ele estão. Esse agente tem uma chave configurada nele que o identifica no microserviço principal, 
-                para onde ele envia os dados do dispositivo monitorado.
+                para onde ele envia os dados dos dispositivos monitorados.
             </p>
 
             <h4>Atualização de dados em tempo real</h4>
