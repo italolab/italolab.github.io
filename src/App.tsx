@@ -34,9 +34,8 @@ function App() {
       </div>      
       <br />
 
-      <p>Bem-vindo ao meu portfólio! Aqui você encontrará alguns dos meus projetos, habilidades e 
-        experiências profissionais. Sinta-se à vontade para explorar e conhecer mais sobre mim e 
-        meu trabalho.
+      <p>Bem-vindo ao meu portfólio! Aqui você encontrará alguns dos meus projetos. Sinta-se à 
+        vontade para explorar e conhecer mais sobre mim e meu trabalho.
       </p>
 
       <p>Sou desenvolvedor com forte domínio em Java e outras linguagens como: C++, PHP, Nodejs, 
