@@ -51,16 +51,7 @@ function ProjetoFoxmake() {
             <div className="text-center mt-3">
                 <a href="https://italolab.github.io/foxmake" target="_blank" rel="noopener noreferrer" className="btn btn-success m-1">
                     Site oficial do foxmake
-                </a>
-                <a href="https://italolab.github.io/xutest" target="_blank" rel="noopener noreferrer" className="btn btn-success m-1">
-                    Site oficial do xutest
-                </a>
-            </div>
-
-            <div className='text-center mt-2'> 
-                <a href="https://github.com/italolab/xutest" target="_blank" rel="noopener noreferrer" className="btn btn-success">
-                    Ver xutest no github
-                </a>
+                </a>                
             </div>
         </Projeto>
     );
