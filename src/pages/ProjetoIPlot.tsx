@@ -30,7 +30,7 @@ function ProjetoIPlot() {
             </p>
 
             <WarningBox>
-                Faça o download pelo github! Há versões para windows e linux.
+                Faça o download pelo github!
             </WarningBox>
         </Projeto>
     )
