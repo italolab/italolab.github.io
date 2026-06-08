@@ -38,6 +38,14 @@ function App() {
         meu trabalho.
       </p>
 
+      <p>Sou desenvolvedor com forte domínio em Java e outras linguagens como: C++, PHP, Nodejs, 
+        Python e Assembly. Nos últimos anos, desenvolvi alguns projetos onde ganhei experiência, 
+        desde a análise de requisitos e projeto do banco de dados, até a escolha de arquiteturas e 
+        tecnologias adequadas, desenvolvimento e realização de testes. Tenho também experiência 
+        com tecnologias de sistemas legados e, claro, estou sempre me aprimorando e aprendendo 
+        tecnologias atuais.
+      </p>
+
       <h3 className="text-center">PRINCIPAIS PROJETOS</h3>
 
       <br />
@@ -52,7 +60,7 @@ function App() {
         e seu ecossistema e o frontend utiliza reactjs. O pagamento via pix foi implementado 
         e a comunicação via API do telegram para envio de mensagens de notificação e alerta 
         também, bem como, envio de e-mails. Conexão SSL/TLS foi implementada. Os monitoramentos 
-        são executados em virtual threads.</p>      
+        são executados em virtual threads Java.</p>      
       </ProjetoResumo>
 
       <ProjetoResumo name="Foxmake" image={FoxmakeMainImage} projLink="/projeto/foxmake">
@@ -66,15 +74,7 @@ function App() {
           definição e configuração de tarefas e propriedades e um interpretador para a linguagem.
         </p>
       </ProjetoResumo>
-
-      <ProjetoResumo name="xutest" image={XUTestMainImage} projLink='https://github.com/italolab/xutest'>
-        <p>A xutest é uma biblioteca de testes unitários que pode ser integrada a um projeto C++ 
-          para realização de testes de unidade. A biblioteca dispõe de macros de assert para 
-          verificações e comparações de valores e descobre os casos de teste definidos nos 
-          arquivos de código fonte de testes e os carrega numa estrutura de informações das 
-          funções de teste.</p>
-      </ProjetoResumo>
-
+      
       <ProjetoResumo name="SISERP 2021" image={Siserp2021MainImage} projLink="/projeto/siserp-2021">
         <p>O Siserp 2021 é um sistema de gestão comercial desenvolvido para atender às necessidades 
           de pequenos e médios comércios e mercadinhos. O sistema conta com funções de produto, clientes, 
@@ -98,6 +98,14 @@ function App() {
 
         <p>A arquitetura hexagonal foi utilizada para separar a lógica de negócios, domínio e validações 
             do módulo de infraestrutura, onde são tratadas as dependências tecnológicas do projeto.</p>      
+      </ProjetoResumo>
+
+      <ProjetoResumo name="xutest" image={XUTestMainImage} projLink='https://github.com/italolab/xutest'>
+        <p>A xutest é uma biblioteca de testes unitários que pode ser integrada a um projeto C++ 
+          para realização de testes de unidade. A biblioteca dispõe de macros de assert para 
+          verificações e comparações de valores e descobre os casos de teste definidos nos 
+          arquivos de código fonte de testes e os carrega numa estrutura de informações das 
+          funções de teste.</p>
       </ProjetoResumo>
 
       <ProjetoResumo name="Italo Xadrez" image={ItaloXadrexMainImage} projLink="https://github.com/italolab/italo-xadrez">
