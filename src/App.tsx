@@ -117,7 +117,7 @@ function App() {
             recepcionistas, profissionais, diretores, etc.</p>
       </ProjetoResumo>
 
-      <ProjetoResumo name="SISBANCO - Arquitetura Hexagonal" projLink="https://github.com/italolab/sisbanco-hex-arq">
+      <ProjetoResumo name="SISBANCO - Arquitetura Hexagonal" github="https://github.com/italolab/sisbanco-hex-arq">
         <p>Esse sistema é um simples sistema de banco com suporte a conta corrente e operações de: 
             depósito, saque e transferência de dinheiro.</p>
 
@@ -125,7 +125,7 @@ function App() {
             do módulo de infraestrutura, onde são tratadas as dependências tecnológicas do projeto.</p>      
       </ProjetoResumo>
 
-      <ProjetoResumo name="xutest" image={XUTestMainImage} projLink='https://github.com/italolab/xutest'>
+      <ProjetoResumo name="xutest" image={XUTestMainImage} github='https://github.com/italolab/xutest'>
         <p>A xutest é uma biblioteca de testes unitários que criei que pode ser integrada a 
           um projeto C++ para realização de testes de unidade. A biblioteca dispõe de macros 
           de assert para verificações e comparações de valores e descobre os casos de teste 
@@ -133,7 +133,7 @@ function App() {
           informações das funções de teste.</p>
       </ProjetoResumo>
 
-      <ProjetoResumo name="Italo Xadrez" image={ItaloXadrexMainImage} projLink="https://github.com/italolab/italo-xadrez">
+      <ProjetoResumo name="Italo Xadrez" image={ItaloXadrexMainImage} github="https://github.com/italolab/italo-xadrez">
         <p>O Italo Xadrez é um jogo de xadrez produzido em C++ com biblioteca SDL e orientação a objetos.
           O MINIMAX foi implementado para a inteligência artificial do jogo, bem como, o algoritmo de         
           poda alpha-beta para otimização do MINIMAX. O jogo tem suporte a partidas contra o computador 
@@ -142,13 +142,13 @@ function App() {
         </p>
       </ProjetoResumo>
 
-      <ProjetoResumo name="Aplicativo de casa de jogo" image={CJAppMainImage} projLink='https://github.com/italolab/cjapp'>
+      <ProjetoResumo name="Aplicativo de casa de jogo" image={CJAppMainImage} github='https://github.com/italolab/cjapp'>
         <p>Este é um aplicativo para gestão de contas e de devedores de uma casa de jogo. O sistema foi feito em react native 
           com banco de dados local SQLite.
         </p>
       </ProjetoResumo>
 
-      <ProjetoResumo name="ExpLab - Linguagem de Programação" image={ExpLabMainImage} projLink="https://github.com/italolab/explab">
+      <ProjetoResumo name="ExpLab - Linguagem de Programação" image={ExpLabMainImage} github="https://github.com/italolab/explab">
         <p>O ExpLab é um interpretador e linguagem de programação interpretada que produzi, orientada a 
           objetos e a matemática. Ela suporta as estruturas básicas de uma linguagem de programação OO 
           como, por exemplo, os comandos: SE, COMPARE/CASO, ENQUANTO, PARA... inclusive, também suporta 
@@ -166,7 +166,7 @@ function App() {
           ela.</p>        
       </ProjetoResumo>
 
-      <ProjetoResumo name="Jogo Batalha Estrelar" image={JogoBatalhaEstrelarMainImage} projLink="https://github.com/italolab/jogo-batalha-estrelar">
+      <ProjetoResumo name="Jogo Batalha Estrelar" image={JogoBatalhaEstrelarMainImage} github="https://github.com/italolab/jogo-batalha-estrelar">
         <p>O jogo foi construído em Java e os gráficos foram feitos em puro Java 2D. Isto é, com as 
           primitivas gráficas: Retângulo, círculo, linha e polígono e texto. Não foi utilizado Pixel Art 
           para desenhar as naves ou outros objetos do jogo!</p>
@@ -178,7 +178,7 @@ function App() {
           aplicação dos gráficos e interface gráfica.</p>
       </ProjetoResumo>
 
-      <ProjetoResumo name="Jogo de Pacman" image={JogoPacmanMainImage} projLink="https://github.com/italolab/jogo-pacman">
+      <ProjetoResumo name="Jogo de Pacman" image={JogoPacmanMainImage} github="https://github.com/italolab/jogo-pacman">
         <p>Esse jogo foi produzido em Java e depende do JRE8 ou superior para funcionar. Os gráficos 
           foram feitos com uso de primitivas gráficas. Logo, os gráficos do jogo são conjuntos de 
           polígonos, linhas, retângulos e círculos. Os personagens e outros objetos do jogo não foram 
@@ -216,14 +216,14 @@ function App() {
         </p>
       </ProjetoResumo>
 
-      <ProjetoResumo name="Jogo de Breakout em Assembly" image={BreakoutAssemblyMainImage} projLink='https://github.com/italolab/breakout-asm16'>
+      <ProjetoResumo name="Jogo de Breakout em Assembly" image={BreakoutAssemblyMainImage} github='https://github.com/italolab/breakout-asm16'>
         <p>Esta página trata de um jogo de breakout produzido em puro assembly com uso, apenas, da 
           arquitetura de 16 bits. O que significa utilizar apenas os registradores e instruções de 
           16 bits do processador 8086. Esse jogo funciona independente de sistema operacional. Dado 
           que, dá instruções diretamente ao BIOS do computador.</p>
       </ProjetoResumo>
 
-      <ProjetoResumo name="Jogo de Breakout em Python" image={BreakoutPythonMainImage} projLink='https://github.com/italolab/breakout-python'>
+      <ProjetoResumo name="Jogo de Breakout em Python" image={BreakoutPythonMainImage} github='https://github.com/italolab/breakout-python'>
         <p>Este jogo produzido em python é uma versão do clássico "breakout". Onde, o objetivo é acertar 
           todos os quadradinhos que ficam na parte de cima do tabuleiro com uma bolinha que se movimenta 
           em linha reta e pode ter seu ângulo de direção alterado por uma raquete.</p>
