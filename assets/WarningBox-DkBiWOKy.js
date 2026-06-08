@@ -1,1 +1,0 @@
-import{t as e}from"./index-BgIPeudP.js";var t=e();function n({children:e}){return(0,t.jsx)(`div`,{className:`d-flex justify-content-center`,children:(0,t.jsx)(`div`,{className:`p-2 rounded text-dark text-center mw-100`,style:{width:`40em`,backgroundColor:`#FFC`},children:e})})}export{n as t};
