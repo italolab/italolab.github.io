@@ -4,6 +4,7 @@ import Image2 from '../assets/projetos/foxmake/2.png';
 import Image3 from '../assets/projetos/foxmake/3.png';
 import Image4 from '../assets/projetos/foxmake/4.png';
 import Projeto from '../componentes/Projeto';
+import WarningBox from '../componentes/WarningBox';
 
 function ProjetoFoxmake() {
     const IMAGES = [
@@ -14,7 +15,7 @@ function ProjetoFoxmake() {
     ];    
 
     return (
-        <Projeto name="Foxmake" images={IMAGES} github="https://github.com/italolab/foxmake">
+        <Projeto name="Foxmake" images={IMAGES} github="https://github.com/italolab/foxmake">                        
             <p>O foxmake é um software de linha de comando que pode ser utilizado para automatizar o 
                 processo de build de projetos C/C++, permitindo configurar tarefas e executá-las para 
                 ter como resultado final: um executável linkado, uma shared library, uma static 
@@ -43,12 +44,16 @@ function ProjetoFoxmake() {
 
             <p>Há uma documentação completa sobre o foxmake e o framework de testes integrado a ele: o xutest</p>
             
+            <WarningBox>
+                Faça o download pelo site oficial
+            </WarningBox>
+
             <div className="text-center mt-3">
                 <a href="https://italolab.github.io/foxmake" target="_blank" rel="noopener noreferrer" className="btn btn-success m-1">
-                    Documentação do foxmake
+                    Site oficial do foxmake
                 </a>
                 <a href="https://italolab.github.io/xutest" target="_blank" rel="noopener noreferrer" className="btn btn-success m-1">
-                    Documentação do xutest
+                    Site oficial do xutest
                 </a>
             </div>
 

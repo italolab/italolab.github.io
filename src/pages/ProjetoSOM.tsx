@@ -4,6 +4,7 @@ import Image1 from "../assets/projetos/projeto-som/1.png";
 import Image2 from "../assets/projetos/projeto-som/2.png";
 import Image3 from "../assets/projetos/projeto-som/3.png";
 import Image4 from "../assets/projetos/projeto-som/4.png";
+import WarningBox from "../componentes/WarningBox";
 
 function ProjetoSOM() {
 
@@ -27,6 +28,10 @@ function ProjetoSOM() {
             <p>Para a parte gráfica foi utilizado o framework projeto IPlot, outro projeto que desenvolvi 
                 para a criação de gráficos em plano cartesiano 2D ou 3D.
             </p>
+
+            <WarningBox>
+                Faça o download pelo github!
+            </WarningBox>
         </Projeto>
     )
     

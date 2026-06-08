@@ -2,6 +2,7 @@
 import Image1 from '../assets/projetos/italoxadrez/1.png';
 
 import Projeto from "../componentes/Projeto";
+import WarningBox from '../componentes/WarningBox';
 
 function ProjetoItaloXadrez() {
     const IMAGES = [
@@ -16,6 +17,10 @@ function ProjetoItaloXadrez() {
         e contra outro jogador humano. O jogo tem suporte a diferentes níveis de dificuldade, que são 
         configurados por meio da profundidade de busca do algoritmo MINIMAX.
       </p>
+
+      <WarningBox>
+        Faça o download pelo github! Há versões para windows e linux.
+      </WarningBox>
     </Projeto>
   );
 }

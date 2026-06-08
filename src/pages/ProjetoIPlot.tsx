@@ -5,6 +5,7 @@ import Image3 from '../assets/projetos/iplot/3.png';
 import Image4 from '../assets/projetos/iplot/4.png';
 
 import Projeto from '../componentes/Projeto';
+import WarningBox from '../componentes/WarningBox';
 
 function ProjetoIPlot() {
 
@@ -27,6 +28,10 @@ function ProjetoIPlot() {
                 mover o gráfico para visualizar outras partes da função fora do intervalo 
                 predefinido.
             </p>
+
+            <WarningBox>
+                Faça o download pelo github! Há versões para windows e linux.
+            </WarningBox>
         </Projeto>
     )
 
