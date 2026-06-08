@@ -87,11 +87,13 @@ function App() {
       </ProjetoResumo>
 
       <ProjetoResumo name="Foxmake" image={FoxmakeMainImage} projLink="/projeto/foxmake">
-        <p>O foxmake é um software de linha de comando que pode ser utilizado para automatizar o 
-                processo de build de projetos C/C++, permitindo configurar tarefas e executá-las para 
-                ter como resultado final: um executável linkado, uma shared library, uma static 
-                library, execução de testes unitários, etc. Inclusive, há versões, tanto para windows, 
-                quanto para linux.</p>
+        <p>O foxmake é um software de linha de comando que criei que pode ser utilizado para 
+          automatizar o processo de build de projetos C/C++, permitindo configurar tarefas e 
+          executá-las para ter como resultado final: um executável linkado, uma shared library, 
+          uma static library, execução de testes unitários, etc. Inclusive, há versões, tanto 
+          para windows, quanto para linux.
+        </p>
+
         <p>Para tanto, o foxmake utiliza um arquivo de configuração cujo conteúdo é conforme uma 
           linguagem interpretada criada com o projeto. Isto é, foi necessário criar uma linguagem de 
           definição e configuração de tarefas e propriedades e um interpretador para a linguagem.
@@ -124,11 +126,11 @@ function App() {
       </ProjetoResumo>
 
       <ProjetoResumo name="xutest" image={XUTestMainImage} projLink='https://github.com/italolab/xutest'>
-        <p>A xutest é uma biblioteca de testes unitários que pode ser integrada a um projeto C++ 
-          para realização de testes de unidade. A biblioteca dispõe de macros de assert para 
-          verificações e comparações de valores e descobre os casos de teste definidos nos 
-          arquivos de código fonte de testes e os carrega numa estrutura de informações das 
-          funções de teste.</p>
+        <p>A xutest é uma biblioteca de testes unitários que criei que pode ser integrada a 
+          um projeto C++ para realização de testes de unidade. A biblioteca dispõe de macros 
+          de assert para verificações e comparações de valores e descobre os casos de teste 
+          definidos nos arquivos de código fonte de testes e os carrega numa estrutura de 
+          informações das funções de teste.</p>
       </ProjetoResumo>
 
       <ProjetoResumo name="Italo Xadrez" image={ItaloXadrexMainImage} projLink="https://github.com/italolab/italo-xadrez">
@@ -147,10 +149,10 @@ function App() {
       </ProjetoResumo>
 
       <ProjetoResumo name="ExpLab - Linguagem de Programação" image={ExpLabMainImage} projLink="https://github.com/italolab/explab">
-        <p>O ExpLab é um interpretador e linguagem de programação interpretada, orientada a objetos e a 
-          matemática. Ela suporta as estruturas básicas de uma linguagem de programação OO como, por 
-          exemplo, os comandos: SE, COMPARE/CASO, ENQUANTO, PARA... inclusive, também suporta definição 
-          e chamada de funções, expressões aritméticas e booleans, classes, objetos como variáveis 
+        <p>O ExpLab é um interpretador e linguagem de programação interpretada que produzi, orientada a 
+          objetos e a matemática. Ela suporta as estruturas básicas de uma linguagem de programação OO 
+          como, por exemplo, os comandos: SE, COMPARE/CASO, ENQUANTO, PARA... inclusive, também suporta 
+          definição e chamada de funções, expressões aritméticas e booleans, classes, objetos como variáveis 
           instâncias de classes, herança de classes, tratamento de exceções, organização das classes 
           em pacotes, etc. Inclusive, como linguagem de programação orientada a matemática, a linguagem 
           ExpLab tem suporte a operações com vetores e matrizes e plotagem e visualização de dados e 
@@ -158,7 +160,7 @@ function App() {
 
         <p>Trata-se de um software semelhante a outros já consagrados como: MatLab, SciLab e GNU Octave.</p>
 
-        <p>O ExpLab tem uma sintaxe muito parecida com a das linguagems C, C++ e Java. É uma linguagem case 
+        <p>O ExpLab tem uma sintaxe muito parecida com a das linguagens C, C++ e Java. É uma linguagem case 
           insensitive e as variáveis não precisam ser declaradas com tipos definidos. Os tipos das variáveis 
           são detectados automaticamente pelo interpretador, conforme o valor, ou expressão atribuido a 
           ela.</p>        
@@ -198,14 +200,15 @@ function App() {
             o treinamento da rede de neurônios artificiais, o resultado da mineração de dados é 
             mostrado num gráfico que representa a matriz de distâncias unificada (Matriz-U).
         </p>
+        <p>Esse aplicativo utiliza para os gráficos, outro framework que produzi: O iplot.</p>
       </ProjetoResumo>
 
       <ProjetoResumo name="IPlot - Plotagem de Gráficos em 2D e 3D" image={IPlotMainImage} projLink='/projeto/iplot'>
         <p>O IPlot, inicialmente chamado de plot3d porque tinha suporte apenas a gráficos em 3D, 
-            é um framework Java para criação de gráficos que possam representar a plotagem de 
-            funções matemáticas ou conjunto de dados armazenados em vetores. Com o IPlot é 
-            possível criar graficos de funções matemáticas em 2D e 3D desenhadas em um plano 
-            cartesiano 2D ou 3D conforme o tipo de função. Na visualização em 3D é possível 
+            é um framework Java que criei para criação de gráficos que possam representar a 
+            plotagem de funções matemáticas ou conjunto de dados armazenados em vetores. Com o 
+            IPlot é possível criar graficos de funções matemáticas em 2D e 3D desenhadas em um 
+            plano cartesiano 2D ou 3D conforme o tipo de função. Na visualização em 3D é possível 
             mover o gráfico, rotacionar e visualizar em diversos ângulos, aplicar zoom menos 
             e mais, etc. Na visualização 2D também é possível aplicar o zoom mais e menos e 
             mover o gráfico para visualizar outras partes da função fora do intervalo 
