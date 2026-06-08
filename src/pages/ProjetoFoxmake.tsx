@@ -16,11 +16,11 @@ function ProjetoFoxmake() {
 
     return (
         <Projeto name="Foxmake" images={IMAGES} github="https://github.com/italolab/foxmake">                        
-            <p>O foxmake é um software de linha de comando que pode ser utilizado para automatizar o 
-                processo de build de projetos C/C++, permitindo configurar tarefas e executá-las para 
-                ter como resultado final: um executável linkado, uma shared library, uma static 
-                library, execução de testes unitários, etc. Inclusive, há versões, tanto para windows, 
-                quanto para linux.
+            <p>O foxmake é um software de linha de comando que desenvolvi que pode ser utilizado para 
+                automatizar o processo de build de projetos C/C++, permitindo configurar tarefas e 
+                executá-las para ter como resultado final: um executável linkado, uma shared library, 
+                uma static library, execução de testes unitários, etc. Inclusive, há versões, tanto 
+                para windows, quanto para linux.
             </p>
 
             <p>O foxmake utiliza um arquivo de configuração que deve ser escrito conforme as regras de 

@@ -17,11 +17,11 @@ function ProjetoSOM() {
 
     return (
         <Projeto name="Mapas auto-organizáveis de Kohonen" images={IMAGES} github="https://github.com/italolab/aplicativo-som">
-            <p>Trata-se de um projeto onde foi implantado o algoritmo de mineração de dados SOM 
-                (Mapas auto-organizáveis de Kohonen). O aplicativo permite a geração automática de 
-                dados 2D e 3D, além de suporte também ao carregamento de dados N dimensionais 
-                armazenado em arquivo texto. A dimensão dos dados é detectada automaticamente. Após 
-                o treinamento da rede de neurônios artificiais, o resultado da mineração de dados é 
+            <p>Trata-se de um projeto que desenvolvi onde foi implantado o algoritmo de mineração 
+                de dados SOM (Mapas auto-organizáveis de Kohonen). O aplicativo permite a geração 
+                automática de dados 2D e 3D, além de suporte também ao carregamento de dados N 
+                dimensionais armazenado em arquivo texto. A dimensão dos dados é detectada automaticamente. 
+                Após o treinamento da rede de neurônios artificiais, o resultado da mineração de dados é 
                 mostrado num gráfico que representa a matriz de distâncias unificada (Matriz-U).
             </p>
 
