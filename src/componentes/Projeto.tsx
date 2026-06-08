@@ -43,7 +43,7 @@ function Projeto( { name, images, github, children } : ProjetoProps ) {
             </div>            
             { github && (
                 <div className="text-center mt-3">
-                    <a href={github} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+                    <a href={github} target="_blank" rel="noopener noreferrer" className="btn btn-success fs-5">
                         Ver no GitHub
                     </a>
                 </div>
