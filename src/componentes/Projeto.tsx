@@ -32,7 +32,7 @@ function Projeto( { name, images, github, children } : ProjetoProps ) {
                 {name}
             </h1>
             <div className="mx-auto w-100">
-                <div className="d-flex justify-content-center align-items-center w-100" style={{ minHeight: '400px' }}>
+                <div className="d-flex justify-content-center align-items-center w-100">
                     <img src={images[currentImage].src} alt={images[currentImage].alt} />
                 </div>            
                 <p className="text-center">{images[currentImage].alt}</p>
