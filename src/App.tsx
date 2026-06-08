@@ -17,6 +17,7 @@ import ExpLabMainImage from './assets/projetos/explab/1.png';
 import BreakoutPythonMainImage from './assets/projetos/jogo-breakout-python/1.png';
 
 import ProjetoResumo from './componentes/ProjetoResumo';
+import WarningBox from './componentes/WarningBox';
 
 function App() {
   return (
@@ -66,6 +67,12 @@ function App() {
           <img width="12" />    
         </div>
       </div>
+
+      <br />
+
+      <WarningBox>
+        Atualmente, estou <span className="text-success fw-bold">OpenToWork</span>
+      </WarningBox>
 
       <br />
 
