@@ -44,16 +44,16 @@ function ProjetoFoxmake() {
             <p>Há uma documentação completa sobre o foxmake e o framework de testes integrado a ele: o xutest</p>
             
             <div className="text-center mt-3">
-                <a href="https://italolab.github.io/foxmake" target="_blank" rel="noopener noreferrer" className="btn btn-secondary m-1">
+                <a href="https://italolab.github.io/foxmake" target="_blank" rel="noopener noreferrer" className="btn btn-success m-1">
                     Documentação do foxmake
                 </a>
-                <a href="https://italolab.github.io/xutest" target="_blank" rel="noopener noreferrer" className="btn btn-secondary m-1">
+                <a href="https://italolab.github.io/xutest" target="_blank" rel="noopener noreferrer" className="btn btn-success m-1">
                     Documentação do xutest
                 </a>
             </div>
 
             <div className='text-center mt-2'> 
-                <a href="https://github.com/italolab/xutest" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+                <a href="https://github.com/italolab/xutest" target="_blank" rel="noopener noreferrer" className="btn btn-success">
                     Ver xutest no github
                 </a>
             </div>
