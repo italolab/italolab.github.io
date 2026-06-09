@@ -33,6 +33,17 @@ function ProjetoItaloMonitor() {
                 o microserviço de monitoramento para alocar ou desalocar virtual threads para o monitoramento dos dispositivos.
             </p>
             
+            <h4>A segurança e autenticação</h4>
+            <p>Está sendo utilizado Spring Security no backend para autorização RBAC, baseada em 
+                roles armazenados no banco de dados e carregados com o login bem sucedido do usuário. 
+                Os endpoints são configurados com os roles que são requisitos para utilização do recurso.
+                Com o login, o sistema gera o access_token e o refresh_token, os armazena em cookies seguros 
+                http only e os envia para o computador do usuário. Esses tokens são tokens JWT. O access_token 
+                dura 5 minutos e o refresh_token, utilizado sempre que o access_token expira, dura 1 hora. O CORS 
+                está sendo configurado para permitir apenas a origem (ou origens) correta(s). Isso é configurável 
+                na configuração do docker-compose.yaml ou .env correto.
+            </p>
+
             <h4>Comunicação entre os microserviços</h4>
             <p>A comunicação entre os microserviços é feita via mensageria RabbitMQ e via REST.</p>
 

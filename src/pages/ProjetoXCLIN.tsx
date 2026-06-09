@@ -28,6 +28,14 @@ function ProjetoXCLIN() {
             <p>O XCLIN foi desenvolvido com Spring Boot e Angular 15. O sistema cresceu e envolveu 
                 em torno de 30 tabelas no banco de dados PostgreSQL e teve integração com a API do IBGE 
                 para carregamento de caixas de seleção com cidades e estados brasileiros.</p>
+
+            <h5>Segurança e autenticação</h5>
+
+            <p>Está sendo utilizado Spring Security no backend para autorização RBAC, baseada em 
+                roles armazenados no banco de dados e carregados com o login bem sucedido do usuário. 
+                Os endpoints são configurados com os roles que são requisitos para utilização do recurso.
+                Com o login, o sistema gera o access_token e o refresh_token e os envia para o 
+                frontend. Esses tokens são tokens JWT. O access_token dura 1 hora.</p>
         </Projeto>
     );
 
