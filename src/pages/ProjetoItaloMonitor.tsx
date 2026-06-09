@@ -45,7 +45,7 @@ function ProjetoItaloMonitor() {
             </p>
 
             <p>Também há a segurança para recursos de uma empresa. Por exemplo, a listagem de dispositivos só pode 
-                ser bem sucedida se o a empresa ao qual o usuário logado pertence corresponder a empresa dona do 
+                ser bem sucedida se a empresa ao qual o usuário logado pertence corresponder a empresa dona do 
                 dispositivo. Isso também vale para os agentes de subnet e servidor da empresa, entre outros recursos.
             </p>
 
