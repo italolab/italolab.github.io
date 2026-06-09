@@ -51,7 +51,7 @@ function ProjetoSiserp2021() {
                 roles armazenados no banco de dados e carregados com o login bem sucedido do usuário. 
                 Os endpoints são configurados com os roles que são requisitos para utilização do recurso.
                 Com o login, o sistema gera o access_token e o envia para o 
-                frontend. Esses tokens são tokens JWT. O access_token dura 1 hora.</p>
+                frontend. Trata-se de um token JWT. O access_token dura 1 hora.</p>
         </Projeto>
     );
 }
