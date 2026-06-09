@@ -44,6 +44,11 @@ function ProjetoItaloMonitor() {
                 na configuração do docker-compose.yaml ou .env correto.
             </p>
 
+            <p>Também há a segurança para recursos de uma empresa. Por exemplo, a listagem de dispositivos só pode 
+                ser bem sucedida se o a empresa ao qual o usuário logado pertence corresponder a empresa dona do 
+                dispositivo. Isso também vale para os agentes de subnet e servidor da empresa, entre outros recursos.
+            </p>
+
             <h4>Comunicação entre os microserviços</h4>
             <p>A comunicação entre os microserviços é feita via mensageria RabbitMQ e via REST.</p>
 
